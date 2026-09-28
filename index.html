@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Car Race Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🏎️ Car Race</h1>
+
+    <div id="score">Score: 0</div>
+
+    <div id="game">
+
+        <!-- Player car -->
+        <div id="player"></div>
+
+        <!-- Game over screen -->
+        <div id="gameOver">
+            <h2>💥 GAME OVER 💥</h2>
+
+            <p id="finalScore">Score: 0</p>
+
+            <button onclick="restartGame()">
+                Restart
+            </button>
+        </div>
+
+    </div>
+
+    <p class="controls">
+        ⬅️ Use Left Arrow &nbsp; | &nbsp;
+        Right Arrow ➡️
+    </p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
